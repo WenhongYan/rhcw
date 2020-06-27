@@ -37,7 +37,7 @@ plot_sim_result <- function(result) {
     ggplot2::geom_line() +
     ggplot2::scale_colour_discrete(name = "",
                           breaks = c("y_actural", "y_sim"),
-                          labels = c("Actural", "Counterfactural")) +
+                          labels = c("Actual", "Counterfactural")) +
     ggplot2::xlab("Time") +
     ggplot2::theme(axis.text.x = ggplot2::element_text(angle = 90, hjust = 1))
 
